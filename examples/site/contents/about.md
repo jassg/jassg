@@ -1,7 +1,6 @@
 ---
 template: page
 title: About
-url: test.html
 ---
 
 About
