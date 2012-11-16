@@ -1,0 +1,5 @@
+# Ignore node modules
+/node_modules
+
+# Ignore examples output directories
+/examples/site/output

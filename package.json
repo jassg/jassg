@@ -1,0 +1,21 @@
+{
+	"name": "jassg",
+	"description": "Just another static site generator",
+	"tags": ["node","static","site","generator","html","markdown","blog"],
+	"version": "0.0.1",
+	"author": "Florian Krauthan <fkrauthan@gmx.net>",
+	"engines": [
+		"node >= 0.6.0"
+	],
+	"bin": {
+		"jassg": "bin/jassg"
+	},
+	"dependencies": {
+		"commander": "~1.0",
+		"fs-extra": "~0.3",
+		"async": "~0.1",
+		"cli-table": "~0.2",
+		"swig": "~0.13",
+		"discount": "~0.2"
+	}
+}
