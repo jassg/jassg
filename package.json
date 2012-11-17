@@ -16,6 +16,8 @@
 		"async": "~0.1",
 		"cli-table": "~0.2",
 		"swig": "~0.13",
-		"js-yaml": "~1.0"
+		"js-yaml": "~1.0",
+		"marked": "~0.2",
+		"node-syntaxhighlighter": "~0.8"
 	}
 }
