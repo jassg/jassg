@@ -16,6 +16,6 @@
 		"async": "~0.1",
 		"cli-table": "~0.2",
 		"swig": "~0.13",
-		"discount": "~0.2"
+		"js-yaml": "~1.0"
 	}
 }
