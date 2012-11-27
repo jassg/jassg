@@ -1,4 +1,4 @@
 {
-	"template": "site/index.html.swig",
+	"template": "site/index",
 	"title": "Welcome"
 }

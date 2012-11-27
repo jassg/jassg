@@ -2,4 +2,4 @@
 /node_modules
 
 # Ignore examples output directories
-/examples/site/output
+/examples/site/build/
