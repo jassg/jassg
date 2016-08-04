@@ -1,3 +1,5 @@
+/* eslint-disable no-console, global-require */
+
 import chalk from "chalk";
 import parseArgv from "minimist";
 
@@ -19,18 +21,18 @@ const usage = `
 const globalOptions = {
     boolean: ["verbose", "quiet", "version", "help"],
     alias: {
-        verbose: 'v',
-        quiet: 'q',
-        version: 'V',
-        help: 'h'
-    }
+        verbose: "v",
+        quiet: "q",
+        version: "V",
+        help: "h",
+    },
 };
 
 function main(argv) {
     const opts = parseArgv(argv, globalOptions);
 
     let cmd = opts._[2];
-    if (!!cmd) {
+    if (cmd) {
         try {
             cmd = require(`${__dirname}/${cmd}`).default;
         } catch (e) {
@@ -49,7 +51,7 @@ function main(argv) {
     }
 
     if (opts.help || !cmd) {
-        console.log(!!cmd ? cmd.usage : usage);
+        console.log(cmd ? cmd.usage : usage);
         process.exit(0);
     }
 }
