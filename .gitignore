@@ -3,3 +3,9 @@
 
 # Ignore examples output directories
 /examples/site/build/
+
+# Ignore compiled util
+/lib
+
+# Ignore idea project files
+/.idea
